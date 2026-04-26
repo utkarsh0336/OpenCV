@@ -7,7 +7,7 @@ if image is None:
 
 grey_img = cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
 
-name = input("Enter the name of the image to be saved in grey scale: ")
+name = input("Enter the name of the image to be saved in grey scale: " + ".png")
 
 cv2.imwrite(name,grey_img)
 
