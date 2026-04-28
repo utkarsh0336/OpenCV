@@ -19,6 +19,7 @@ codec = cv2.VideoWriter_fourcc(*'XVID')
 # 2. Codec
 # 3. Frames per second
 # 4. Frame size as (width, height)
+
 recorder = cv2.VideoWriter(
     "my_video.avi",
     codec,
